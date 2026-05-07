@@ -100,9 +100,30 @@ function azaleaSprigSvg(side) {
 
 /* ===================== RENDER: HEADER ===================== */
 function renderHeader() {
+  var logo = '<svg class="hdr-logo-svg" viewBox="0 0 310 88" xmlns="http://www.w3.org/2000/svg" aria-label="Brooks Rizo Booze Classic">'
+    + '<ellipse cx="34" cy="58" rx="28" ry="13" fill="#2C5F3F"/>'
+    + '<path d="M 10 58 Q 34 48 58 58" fill="#3F7B57"/>'
+    + '<ellipse cx="25" cy="62" rx="7" ry="3" fill="#E29CB0"/>'
+    + '<line x1="40" y1="20" x2="40" y2="58" stroke="#111827" stroke-width="1.8" stroke-linecap="round"/>'
+    + '<polygon points="40,20 56,28 40,36" fill="white"/>'
+    + '<text x="72" y="55" font-family="Inter,sans-serif" font-weight="800" font-size="38" fill="#2C5F3F">BRBC</text>'
+    + '<g transform="translate(208,12) rotate(-18,11,18)">'
+    +   '<rect x="0" y="8" width="20" height="24" rx="3" fill="#D4A89A"/>'
+    +   '<path d="M20 13 Q28 13 28 20 Q28 27 20 27" fill="none" stroke="#D4A89A" stroke-width="3" stroke-linecap="round"/>'
+    +   '<ellipse cx="10" cy="7" rx="10" ry="4.5" fill="white" opacity="0.9"/>'
+    + '</g>'
+    + '<g transform="translate(228,8) rotate(15,11,18)">'
+    +   '<rect x="0" y="8" width="20" height="24" rx="3" fill="#C49090"/>'
+    +   '<path d="M20 13 Q28 13 28 20 Q28 27 20 27" fill="none" stroke="#C49090" stroke-width="3" stroke-linecap="round"/>'
+    +   '<ellipse cx="10" cy="7" rx="10" ry="4.5" fill="white" opacity="0.9"/>'
+    + '</g>'
+    + '<text x="72" y="70" font-family="Inter,sans-serif" font-weight="500" font-size="12" fill="#2C5F3F" letter-spacing="0.04em">Brooks Rizo Booze Classic</text>'
+    + '<text x="72" y="83" font-family="Inter,sans-serif" font-weight="400" font-size="10" fill="#5a7a65" letter-spacing="0.08em">Est 2019</text>'
+    + '</svg>';
+
   return '<div class="hdr-logo-wrap">'
     + azaleaSprigSvg('left')
-    + '<img class="hdr-logo" src="assets/brbc-logo-spring.png" alt="BRBC">'
+    + logo
     + azaleaSprigSvg('right')
     + '</div>';
 }
@@ -385,10 +406,12 @@ function renderModal() {
     var cls    = s !== undefined ? holeCls(s, h.par) : '';
     var isOpen = modalHole === h.hole;
 
+    if (h.hole === 10) html += '<div class="sc-nine-break">— BACK 9 —</div>';
+
     html += '<div class="sc-row' + (isOpen ? ' is-open' : '') + '">'
       + '<div class="sc-row-head" data-pick-hole="' + h.hole + '">'
       +   '<div class="sc-h-no">' + h.hole + '</div>'
-      +   '<div class="sc-h-meta">P' + h.par + ' · ' + h.yards + 'Y' + (h.special ? ' · <em>' + h.special.split('—')[0].trim() + '</em>' : '') + '</div>'
+      +   '<div class="sc-h-meta">Par ' + h.par + ' · ' + h.yards + 'Y' + (h.special ? ' · <em>' + h.special.split('—')[0].trim() + '</em>' : '') + '</div>'
       +   (s !== undefined
             ? '<div class="sc-h-val has-score ' + cls + '"><span class="sc-mark">' + s + '</span></div>'
             : '<div class="sc-h-val">–</div>')
