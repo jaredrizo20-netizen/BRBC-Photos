@@ -71,16 +71,16 @@ var CAPTAINS = [
 ];
 
 var CHAMPIONS = [
-  { year:"2026", event:"Spring Classic", players:["Kevin O'Halloran","Mike Preziosi","Chris Flaherty","Cade Buckley"],        photo:"https://jaredrizo20-netizen.github.io/BRBC-Photos/BRBC_2026_Champs.JPEG" },
-  { year:"2025", event:"Spring Classic", players:["Jack Wilson","Jose Garcia","Mike Preziosi","Mark Preziosi"],               photo:"https://jaredrizo20-netizen.github.io/BRBC-Photos/BRBC_2025_Spring_Champs.jpeg" },
-  { year:"2024", event:"Spring Classic", players:["Billy Gardner","Sean Brooks","Reed Pike","Cam Hooper"],                    photo:"https://jaredrizo20-netizen.github.io/BRBC-Photos/BRBC_2024_Spring_Champs.jpeg" },
-  { year:"2023", event:"Spring Classic", players:["Billy Gardner","Sean Brooks","Reed Pike","Cam Hooper"],                    photo:"https://jaredrizo20-netizen.github.io/BRBC-Photos/BRBC_2023_Spring_Champs.jpeg" },
-  { year:"2023", event:"Fall Classic",   players:["Mike Preziosi","Keane Costa","Mike Hurley","Mark Preziosi"],               photo:"https://jaredrizo20-netizen.github.io/BRBC-Photos/BRBC_2023_Fall_Champs.jpeg" },
-  { year:"2022", event:"Fall Classic",   players:["Bobby Lawton","Tim O'Halloran","Mike Preziosi","Mark Preziosi"],           photo:"https://jaredrizo20-netizen.github.io/BRBC-Photos/BRBC_2022_Fall_Champs.jpeg" },
+  { year:"2026", event:"Spring Classic", players:["Kevin O'Halloran","Mike Preziosi","Chris Flaherty","Cade Buckley"],        photo:"BRBC_2026_Champs.JPEG" },
+  { year:"2025", event:"Spring Classic", players:["Jack Wilson","Jose Garcia","Mike Preziosi","Mark Preziosi"],               photo:"BRBC_2025_Spring_Champs.jpeg" },
+  { year:"2024", event:"Spring Classic", players:["Billy Gardner","Sean Brooks","Reed Pike","Cam Hooper"],                    photo:"BRBC_2024_Spring_Champs.jpeg" },
+  { year:"2023", event:"Spring Classic", players:["Billy Gardner","Sean Brooks","Reed Pike","Cam Hooper"],                    photo:"BRBC_2023_Spring_Champs.jpeg" },
+  { year:"2023", event:"Fall Classic",   players:["Mike Preziosi","Keane Costa","Mike Hurley","Mark Preziosi"],               photo:"BRBC_2023_Fall_Champs.jpeg" },
+  { year:"2022", event:"Fall Classic",   players:["Bobby Lawton","Tim O'Halloran","Mike Preziosi","Mark Preziosi"],           photo:"BRBC_2022_Fall_Champs.jpeg" },
   { year:"2022", event:"Spring Classic", players:["Matt Lebbo","John \"JT\" Tomlin","Kevin Flannery","Steve Flannery"] },
   { year:"2021", event:"Fall Classic",   players:["Matt Lebbo","John \"JT\" Tomlin","Kevin Flannery","Steve Flannery"] },
-  { year:"2021", event:"Spring Classic", players:["Jake Harris","Sean Brooks"],                                               photo:"https://jaredrizo20-netizen.github.io/BRBC-Photos/BRBC_2021_Spring_Champs.jpeg" },
-  { year:"2020", event:"Fall Classic",   players:["Cam Hooper","Sean Brooks"],                                                photo:"https://jaredrizo20-netizen.github.io/BRBC-Photos/BRBC_2020_Fall_Champs.jpeg" },
-  { year:"2020", event:"Spring Classic", players:["Cam Hooper","Sean Brooks"],                                                photo:"https://jaredrizo20-netizen.github.io/BRBC-Photos/BRBC_2020_Spring_Champs.jpeg" },
-  { year:"2019", event:"Fall Classic",   players:["Cam Hooper","Sean Brooks"],                                                photo:"https://jaredrizo20-netizen.github.io/BRBC-Photos/BRBC_2019_Fall_Champs.jpeg" }
+  { year:"2021", event:"Spring Classic", players:["Jake Harris","Sean Brooks"],                                               photo:"BRBC_2021_Spring_Champs.jpeg" },
+  { year:"2020", event:"Fall Classic",   players:["Cam Hooper","Sean Brooks"],                                                photo:"BRBC_2020_Fall_Champs.jpeg" },
+  { year:"2020", event:"Spring Classic", players:["Cam Hooper","Sean Brooks"],                                                photo:"BRBC_2020_Spring_Champs.jpeg" },
+  { year:"2019", event:"Fall Classic",   players:["Cam Hooper","Sean Brooks"],                                                photo:"BRBC_2019_Fall_Champs.jpeg" }
 ];
