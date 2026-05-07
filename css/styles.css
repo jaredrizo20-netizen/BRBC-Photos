@@ -151,7 +151,7 @@ body {
   display: flex; align-items: center; justify-content: center; gap: 4px;
   padding: 18px 14px 12px;
 }
-.hdr-logo {
+.hdr-logo-svg {
   flex: 1 1 auto;
   max-width: 280px;
   width: 100%;
