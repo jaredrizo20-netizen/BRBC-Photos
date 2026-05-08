@@ -880,14 +880,14 @@ body {
 .footer-sprig {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  margin-top: 6px;
-  padding-bottom: 24px;
+  align-items: center;
+  margin-top: 10px;
+  padding-bottom: 30px;
   gap: 0;
 }
-.footer-sprig .sprig { width: 38px; height: 63px; opacity: 0.6; }
-.footer-sprig .sprig--left  { transform: rotate(8deg) translateY(-2px); }
-.footer-sprig .sprig--right { transform: rotate(-8deg) translateY(-2px); }
+.footer-sprig .sprig { width: 63px; height: 38px; opacity: 0.6; }
+.footer-sprig .sprig--left  { transform: rotate(90deg); }
+.footer-sprig .sprig--right { transform: rotate(-90deg); }
 
 /* ------- TWEAKS PANEL ------- */
 #tw-panel {
