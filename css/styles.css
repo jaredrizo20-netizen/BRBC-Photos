@@ -844,9 +844,10 @@ body {
   border: 0; background: transparent; color: var(--ink); width: 44px; height: 36px;
 }
 .sc-h-val.has-score .sc-mark {
-  display: grid; place-items: center;
+  display: flex; align-items: center; justify-content: center;
   width: 32px; height: 32px;
   font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 18px;
+  line-height: 1;
 }
 .sc-h-val.birdie .sc-mark { color: var(--green-deep); border: 1.5px solid var(--green-deep); border-radius: 50%; }
 .sc-h-val.eagle  .sc-mark { color: var(--green-deep); border: 1.5px solid var(--green-deep); border-radius: 50%; box-shadow: 0 0 0 2px #fff, 0 0 0 3.5px var(--green-deep); }
@@ -858,6 +859,7 @@ body {
 .sc-pad-btn {
   aspect-ratio: 1; border: 1px solid var(--rule); background: #fff; border-radius: 3px;
   font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 18px; color: var(--green-deep); cursor: pointer;
+  display: flex; align-items: center; justify-content: center; line-height: 1;
 }
 .sc-pad-btn.is-on { background: var(--green-deep); color: var(--ivory-soft); border-color: var(--green-deep); }
 .sc-pad-btn.sc-clear {
