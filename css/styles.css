@@ -869,13 +869,25 @@ body {
 /* ------- FOOTER ------- */
 .footer {
   text-align: center;
-  padding: 26px 18px 40px;
+  padding: 26px 18px 0;
   color: var(--ink-faded);
   font-family: 'Cormorant SC', serif;
   letter-spacing: 0.4em;
   font-size: 13px;
 }
 .footer .ornament-mark { color: var(--gold); margin: 0 8px; }
+.footer-spring { white-space: nowrap; }
+.footer-sprig {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 6px;
+  padding-bottom: 24px;
+  gap: 0;
+}
+.footer-sprig .sprig { width: 38px; height: 63px; opacity: 0.6; }
+.footer-sprig .sprig--left  { transform: rotate(8deg) translateY(-2px); }
+.footer-sprig .sprig--right { transform: rotate(-8deg) translateY(-2px); }
 
 /* ------- TWEAKS PANEL ------- */
 #tw-panel {
