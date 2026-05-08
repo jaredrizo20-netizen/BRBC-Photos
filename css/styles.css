@@ -873,7 +873,7 @@ body {
   color: var(--ink-faded);
   font-family: 'Cormorant SC', serif;
   letter-spacing: 0.4em;
-  font-size: 10px;
+  font-size: 13px;
 }
 .footer .ornament-mark { color: var(--gold); margin: 0 8px; }
 

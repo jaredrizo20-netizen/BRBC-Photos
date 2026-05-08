@@ -147,7 +147,7 @@ function renderLeaderboard() {
 
   var html = '<div class="section-head">'
     + '<div class="label">L · I · V · E</div>'
-    + '<h2>Live Leaderboard</h2>'
+    + '<h2>Leaderboard</h2>'
     + '<div class="ornament"><span class="ornament-mark">❀</span></div>'
     + '</div>';
 
