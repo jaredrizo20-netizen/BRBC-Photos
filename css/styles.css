@@ -848,6 +848,8 @@ body {
   width: 32px; height: 32px;
   font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 18px;
   line-height: 1;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings: "lnum" 1, "tnum" 1;
 }
 .sc-h-val.birdie .sc-mark { color: var(--green-deep); border: 1.5px solid var(--green-deep); border-radius: 50%; }
 .sc-h-val.eagle  .sc-mark { color: var(--green-deep); border: 1.5px solid var(--green-deep); border-radius: 50%; box-shadow: 0 0 0 2px #fff, 0 0 0 3.5px var(--green-deep); }
@@ -860,6 +862,8 @@ body {
   aspect-ratio: 1; border: 1px solid var(--rule); background: #fff; border-radius: 3px;
   font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 18px; color: var(--green-deep); cursor: pointer;
   display: flex; align-items: center; justify-content: center; line-height: 1;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings: "lnum" 1, "tnum" 1;
 }
 .sc-pad-btn.is-on { background: var(--green-deep); color: var(--ivory-soft); border-color: var(--green-deep); }
 .sc-pad-btn.sc-clear {
