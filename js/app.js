@@ -104,26 +104,27 @@ function azaleaSprigSvg(side) {
 }
 
 function footerAzaleaSvg() {
-  return '<svg class="footer-azalea" viewBox="0 0 280 78" aria-hidden="true">'
-    + '<path d="M8,44 C 55,32 100,48 140,38 C 180,28 225,46 272,36" stroke="#2C5F3F" stroke-width="2.2" fill="none" stroke-linecap="round"/>'
-    + '<path d="M28,42 C 22,56 36,60 38,46 Z" fill="#2C5F3F"/>'
-    + '<path d="M52,39 C 46,25 60,21 62,35 Z" fill="#3F7B57"/>'
-    + '<path d="M108,43 C 100,57 116,61 116,47 Z" fill="#2C5F3F"/>'
-    + '<path d="M155,37 C 149,23 163,19 165,33 Z" fill="#3F7B57"/>'
-    + '<path d="M178,36 C 172,22 186,18 186,32 Z" fill="#3F7B57"/>'
-    + '<path d="M232,41 C 226,55 240,59 240,45 Z" fill="#2C5F3F"/>'
-    + '<path d="M28,42 Q28,52 28,62" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
-    + '<path d="M65,39 Q65,30 65,21" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
-    + '<path d="M125,43 Q125,52 125,61" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
-    + '<path d="M158,37 Q158,27 158,17" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
-    + '<path d="M192,35 Q191,24 192,13" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
-    + '<path d="M248,40 Q248,50 248,59" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
-    + bloom(28, 62, 0.85)
-    + bloom(65, 21, 0.9)
-    + bloom(125, 61, 1.0)
-    + bloom(158, 17, 0.88)
-    + bloom(192, 13, 0.85)
-    + bloom(248, 59, 0.95)
+  // Even spacing: blooms at x=22,67,112,157,202,247 alternating above/below
+  // Leaves between each bloom, opposite side
+  return '<svg class="footer-azalea" viewBox="0 0 280 76" aria-hidden="true">'
+    + '<path d="M5,38 C 95,34 185,42 275,38" stroke="#2C5F3F" stroke-width="2.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M42,38 C 36,50 54,54 48,40 Z" fill="#2C5F3F"/>'
+    + '<path d="M87,38 C 81,26 99,22 93,36 Z" fill="#3F7B57"/>'
+    + '<path d="M132,38 C 126,50 144,54 138,40 Z" fill="#2C5F3F"/>'
+    + '<path d="M177,38 C 171,26 189,22 183,36 Z" fill="#3F7B57"/>'
+    + '<path d="M222,38 C 216,50 234,54 228,40 Z" fill="#2C5F3F"/>'
+    + '<path d="M22,38 L22,24" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M67,38 L67,52" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M112,38 L112,24" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M157,38 L157,52" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M202,38 L202,24" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M247,38 L247,52" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
+    + bloom(22,  24, 0.92)
+    + bloom(67,  52, 0.95)
+    + bloom(112, 24, 0.90)
+    + bloom(157, 52, 0.95)
+    + bloom(202, 24, 0.92)
+    + bloom(247, 52, 0.88)
     + '</svg>';
 }
 
