@@ -870,24 +870,24 @@ body {
 .footer {
   text-align: center;
   padding: 26px 18px 0;
-  padding-bottom: 0;
   color: var(--ink-faded);
   font-family: 'Cormorant SC', serif;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.22em;
   font-size: 13px;
 }
-.footer .ornament-mark { color: var(--gold); margin: 0 8px; }
-.footer-text { line-height: 1.8; }
-.footer-spring { white-space: nowrap; }
+.footer .ornament-mark { color: var(--gold); margin: 0 6px; }
+.footer-text { line-height: 1.8; white-space: nowrap; }
 .footer-sprig {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: -26px;
-  padding-bottom: 0;
+  margin-top: 2px;
 }
-.footer-sprig .sprig { width: 160px; height: 96px; opacity: 0.75; }
-.footer-sprig .sprig--left { transform: rotate(90deg); }
+.footer-azalea {
+  display: block;
+  width: min(240px, 80%);
+  height: auto;
+  opacity: 0.75;
+}
 
 /* ------- TWEAKS PANEL ------- */
 #tw-panel {

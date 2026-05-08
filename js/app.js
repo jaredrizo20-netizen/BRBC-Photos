@@ -98,6 +98,20 @@ function azaleaSprigSvg(side) {
     + '</svg>';
 }
 
+function footerAzaleaSvg() {
+  return '<svg class="footer-azalea" viewBox="0 0 280 65" aria-hidden="true">'
+    + '<path d="M8,48 C 55,36 100,52 140,42 C 180,32 225,50 272,40" stroke="#2C5F3F" stroke-width="2.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M52,43 C 46,29 60,25 62,39 Z" fill="#3F7B57"/>'
+    + '<path d="M108,47 C 100,33 116,29 116,43 Z" fill="#2C5F3F"/>'
+    + '<path d="M178,40 C 172,26 186,22 186,36 Z" fill="#3F7B57"/>'
+    + '<path d="M232,45 C 226,31 240,27 240,41 Z" fill="#2C5F3F"/>'
+    + bloom(65, 24, 0.9)
+    + bloom(125, 20, 1.0)
+    + bloom(192, 16, 0.85)
+    + bloom(248, 21, 0.95)
+    + '</svg>';
+}
+
 /* ===================== RENDER: HEADER ===================== */
 function renderHeader() {
   return '<div class="hdr-logo-wrap">'
@@ -564,7 +578,7 @@ function render() {
     +   '<div><span class="ornament-mark">❀</span> BROOKS RIZO BOOZE CLASSIC <span class="ornament-mark">❀</span></div>'
     +   '<div class="footer-spring"><span class="ornament-mark">❀</span> SPRING \'26 <span class="ornament-mark">❀</span></div>'
     + '</div>'
-    + '<div class="footer-sprig">' + azaleaSprigSvg('left') + '</div>'
+    + '<div class="footer-sprig">' + footerAzaleaSvg() + '</div>'
     + '</div>';
   app.innerHTML = html;
   attachEvents();
