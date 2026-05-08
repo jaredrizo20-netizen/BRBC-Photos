@@ -78,7 +78,7 @@ var CHAMPIONS = [
   { year:"2023", event:"Fall Classic",   players:["Mike Preziosi","Keane Costa","Mike Hurley","Mark Preziosi"],               photo:"BRBC_2023_Fall_Champs.jpeg" },
   { year:"2022", event:"Fall Classic",   players:["Bobby Lawton","Tim O'Halloran","Mike Preziosi","Mark Preziosi"],           photo:"BRBC_2022_Fall_Champs.jpeg" },
   { year:"2022", event:"Spring Classic", players:["Matt Lebbo","John \"JT\" Tomlin","Kevin Flannery","Steve Flannery"] },
-  { year:"2021", event:"Fall Classic",   players:["Matt Lebbo","John \"JT\" Tomlin","Kevin Flannery","Steve Flannery"] },
+  { year:"2021", event:"Fall Classic",   players:["Matt Lebbo","John \"JT\" Tomlin","Kevin Flannery","Steve Flannery"],           photo:"BRBC_2021_Fall_Champs.jpeg" },
   { year:"2021", event:"Spring Classic", players:["Jake Harris","Sean Brooks"],                                               photo:"BRBC_2021_Spring_Champs.jpeg" },
   { year:"2020", event:"Fall Classic",   players:["Cam Hooper","Sean Brooks"],                                                photo:"BRBC_2020_Fall_Champs.jpeg" },
   { year:"2020", event:"Spring Classic", players:["Cam Hooper","Sean Brooks"],                                                photo:"BRBC_2020_Spring_Champs.jpeg" },
