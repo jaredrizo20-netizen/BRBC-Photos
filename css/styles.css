@@ -883,11 +883,9 @@ body {
   align-items: center;
   margin-top: 10px;
   padding-bottom: 30px;
-  gap: 0;
 }
-.footer-sprig .sprig { width: 63px; height: 38px; opacity: 0.6; }
-.footer-sprig .sprig--left  { transform: rotate(90deg); }
-.footer-sprig .sprig--right { transform: rotate(-90deg); }
+.footer-sprig .sprig { width: 160px; height: 96px; opacity: 0.75; }
+.footer-sprig .sprig--left { transform: rotate(90deg); }
 
 /* ------- TWEAKS PANEL ------- */
 #tw-panel {
