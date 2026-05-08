@@ -104,20 +104,20 @@ function azaleaSprigSvg(side) {
 }
 
 function footerAzaleaSvg() {
-  return '<svg class="footer-azalea" viewBox="0 0 280 65" aria-hidden="true">'
-    + '<path d="M8,48 C 55,36 100,52 140,42 C 180,32 225,50 272,40" stroke="#2C5F3F" stroke-width="2.2" fill="none" stroke-linecap="round"/>'
-    + '<path d="M52,43 C 46,29 60,25 62,39 Z" fill="#3F7B57"/>'
-    + '<path d="M108,47 C 100,33 116,29 116,43 Z" fill="#2C5F3F"/>'
-    + '<path d="M178,40 C 172,26 186,22 186,36 Z" fill="#3F7B57"/>'
-    + '<path d="M232,45 C 226,31 240,27 240,41 Z" fill="#2C5F3F"/>'
-    + '<path d="M65,43 Q65,33 65,24" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
-    + '<path d="M125,46 Q124,33 125,20" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
-    + '<path d="M192,39 Q191,27 192,16" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
-    + '<path d="M248,43 Q247,32 248,21" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
-    + bloom(65, 24, 0.9)
-    + bloom(125, 20, 1.0)
-    + bloom(192, 16, 0.85)
-    + bloom(248, 21, 0.95)
+  return '<svg class="footer-azalea" viewBox="0 0 280 78" aria-hidden="true">'
+    + '<path d="M8,44 C 55,32 100,48 140,38 C 180,28 225,46 272,36" stroke="#2C5F3F" stroke-width="2.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M52,39 C 46,25 60,21 62,35 Z" fill="#3F7B57"/>'
+    + '<path d="M108,43 C 100,29 116,25 116,39 Z" fill="#2C5F3F"/>'
+    + '<path d="M178,36 C 172,22 186,18 186,32 Z" fill="#3F7B57"/>'
+    + '<path d="M232,41 C 226,27 240,23 240,37 Z" fill="#2C5F3F"/>'
+    + '<path d="M65,39 Q65,30 65,21" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M125,43 Q125,52 125,61" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M192,35 Q191,24 192,13" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M248,40 Q248,50 248,59" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
+    + bloom(65, 21, 0.9)
+    + bloom(125, 61, 1.0)
+    + bloom(192, 13, 0.85)
+    + bloom(248, 59, 0.95)
     + '</svg>';
 }
 
