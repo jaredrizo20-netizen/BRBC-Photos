@@ -151,13 +151,13 @@ body {
   display: flex; align-items: center; justify-content: center; gap: 4px;
   padding: 18px 14px 12px;
 }
-.hdr-logo-svg {
+.hdr-logo-img {
   flex: 1 1 auto;
   max-width: 280px;
   width: 100%;
   height: auto;
   display: block;
-  filter: drop-shadow(0 1px 0 rgba(31,77,46,0.05));
+  object-fit: contain;
 }
 
 /* ------- NAV ------- */
