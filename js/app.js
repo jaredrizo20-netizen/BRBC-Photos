@@ -89,6 +89,11 @@ function azaleaSprigSvg(side) {
     + '<path d="M22,82 C 8,80 4,68 14,60 C 24,60 28,72 22,82 Z" fill="#2C5F3F"/>'
     + '<path d="M30,118 C 46,114 52,124 44,134 C 34,138 26,130 30,118 Z" fill="#3F7B57"/>'
     + '<path d="M22,170 C 8,170 4,158 16,150 C 26,152 28,162 22,170 Z" fill="#2C5F3F"/>'
+    + '<path d="M16,22 Q30,18 46,22" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M31,70 Q35,67 38,70" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M33,100 Q46,95 58,100" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M26,140 Q30,136 34,140" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M39,178 Q46,174 52,178" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
     + bloom(46, 22, 1.0)
     + bloom(38, 70, 0.85)
     + bloom(58, 100, 1.1)
@@ -105,6 +110,10 @@ function footerAzaleaSvg() {
     + '<path d="M108,47 C 100,33 116,29 116,43 Z" fill="#2C5F3F"/>'
     + '<path d="M178,40 C 172,26 186,22 186,36 Z" fill="#3F7B57"/>'
     + '<path d="M232,45 C 226,31 240,27 240,41 Z" fill="#2C5F3F"/>'
+    + '<path d="M65,43 Q65,33 65,24" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M125,46 Q124,33 125,20" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M192,39 Q191,27 192,16" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
+    + '<path d="M248,43 Q247,32 248,21" stroke="#2C5F3F" stroke-width="1.2" fill="none" stroke-linecap="round"/>'
     + bloom(65, 24, 0.9)
     + bloom(125, 20, 1.0)
     + bloom(192, 16, 0.85)
