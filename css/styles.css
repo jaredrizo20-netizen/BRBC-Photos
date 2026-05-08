@@ -57,7 +57,7 @@ body {
 }
 
 /* ------- LAYOUT ------- */
-#app { max-width: 480px; margin: 0 auto; padding: 0 0 100px; position: relative; }
+#app { max-width: 480px; margin: 0 auto; padding: 0; position: relative; }
 
 /* ------- HEADER ------- */
 .hdr-wrap { padding: 22px 22px 6px; position: relative; }
@@ -870,6 +870,7 @@ body {
 .footer {
   text-align: center;
   padding: 26px 18px 0;
+  padding-bottom: 0;
   color: var(--ink-faded);
   font-family: 'Cormorant SC', serif;
   letter-spacing: 0.4em;
@@ -881,8 +882,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
-  padding-bottom: 30px;
+  margin-top: 2px;
+  padding-bottom: 0;
 }
 .footer-sprig .sprig { width: 160px; height: 96px; opacity: 0.75; }
 .footer-sprig .sprig--left { transform: rotate(90deg); }
