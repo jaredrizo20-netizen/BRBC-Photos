@@ -560,7 +560,10 @@ function render() {
   else if (view === 'rankings')    html += renderRankings();
   else if (view === 'champions')   html += renderChampions();
   html += '<div class="footer">'
-    + '<div class="footer-text"><span class="ornament-mark">❀</span> BROOKS RIZO BOOZE CLASSIC <span class="ornament-mark">❀</span> <span class="footer-spring"><span class="ornament-mark">❀</span> SPRING \'26 <span class="ornament-mark">❀</span></span></div>'
+    + '<div class="footer-text">'
+    +   '<div><span class="ornament-mark">❀</span> BROOKS RIZO BOOZE CLASSIC <span class="ornament-mark">❀</span></div>'
+    +   '<div class="footer-spring"><span class="ornament-mark">❀</span> SPRING \'26 <span class="ornament-mark">❀</span></div>'
+    + '</div>'
     + '<div class="footer-sprig">' + azaleaSprigSvg('left') + '</div>'
     + '</div>';
   app.innerHTML = html;
